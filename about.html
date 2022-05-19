@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+        <title>DEDALE GAMES</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="shortcut icon" type="image/x-icon" href="images/fav.ico">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <script src="js/typed.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="css/aos.css" />
+        <script src="js/aos.js"></script>
+        <style>
+          .DL{
+             border: solid #0f0f0f 4px !important;
+           }       
+           .DL:hover{
+             box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, .5);
+             height:50vh;
+             transform: scale(1.01,1.01);
+          }   
+          </style>
+	</head>
+	<body>
+
+        <header class="header">
+            <img src="images/Logo.svg" alt="Logo" class="logo" />
+            <div class="contact" href="#"><img src="images/BoutonXb.svg" alt="Fermer" class="crossc" />Contact<hr>
+              <div class="ctcflex">
+                <form id="contact-form" class="contact-form" action="https://formsubmit.co/18a44b9f089525c7253b1ac13344c212" method="POST" target="_blank">
+                    <div class="form-group row">
+                      <div class="user-box">
+                        <div class="col-sm-10">
+                          <label for="fname">Nom &amp; prenom</label>
+                        </div>
+                        <div id="email" class="col-sm-10 user-box">
+                          <input type="text" name="name" placeholder="Nom Prenom" required="">
+                        </div>
+                      </div>
+                      <div class="user-box">
+                        <div class="col-sm-10">
+                          <label>Email</label>
+                        </div>
+                        <div id="email" class="col-sm-10 user-box">
+                          <input type="email" name="email" required="" placeholder="votremail@mail.com"><br>
+                        </div>
+                      </div>
+                      <div class="user-box">
+                        <div class="col-sm-10">
+                          <label for="sujet">Objet</label>
+                        </div>
+                        <div id="email" class="col-sm-10 user-box">
+                          <input type="text" name="subject" placeholder="Objet" required="">
+                        </div>
+                      </div>
+                      <div class="user-box">
+                        <div class="col-sm-10">
+                          <label for="message">Message</label>
+                        </div>
+                        <div class="col-sm-10">
+                          <textarea style="max-width: 60%; max-height: 300px;" rows="3" cols="30" name="message" placeholder="Cliquez pour écrire"></textarea>
+                        </div>
+                      </div>
+                      <div class="bouton-box">
+                        <input type="submit" name="submit">
+                      </div>
+                    </div>
+                  </form>
+
+                  <div class="vl"></div>
+                  <div class="staffctc">
+                   <div class="mail"><a href="mailto:kieran.mignon@edu.univ-paris13.fr"><img width="25" src="images/mail.svg" alt="mail" /></a>Kieran Mignon</div>
+                   <div class="mail"><a href="mailto:helene.nguyen@edu.univ-paris13.fr"><img width="25" src="images/mail.svg" alt="mail" /></a>Nguyen Helene</div>
+                   <div class="mail"><a href="mailto:tanguy.lechevallier@edu.univ-paris13.fr"><img width="25" src="images/mail.svg" alt="mail" /></a>Lechevallier Tanguy</div>
+                   <div class="mail"><a href="mailto:hugo.maokhampio@edu.univ-paris13.fr"><img width="25" src="images/mail.svg" alt="mail" /></a>Maokhampio Hugo</div>
+                   <div class="mail"><a href="mailto:elisa.okyere-darkoh@edu.univ-paris13.fr"><img width="25" src="images/mail.svg" alt="mail" /></a>Okyere-Darkoh Elisa</div>
+                   <div class="mail"><a href="mailto:julian.crouzet@edu.univ-paris13.fr"><img width="25" src="images/mail.svg" alt="mail" /></a>Crouzet Julian</div>
+                   <div class="mail"><a href="mailto:leong.villon@edu.univ-paris13.fr"><img width="25" src="images/mail.svg" alt="mail" /></a>Leong Villon</div>
+                  </div>
+                </div>
+            </div>
+            <div class="menu">
+                <a class="pages" href="index.html">Accueil</a>
+                <a class="pages" href="projets.html">Projets</a>
+                <a class="pages" href="galerie.html">Galerie</a>
+                <a class="pages" href="about.html">Agence</a>
+            </div>
+            <ul class="button" >
+                <li class="deroulant">
+                    <a href="#" style="height: 55px;"><img class="burger" src="images/Bouton.svg" alt="Boutton" height="75px" width="75px" /> <img class="burgerX" src="images/BoutonX.svg" alt="Boutton" height="75px" width="75px" /></a>
+                    <ul class="sous">
+                        <li>
+                            <a href="index.html">ACCUEIL</a>
+                            <a href="projets.html">PROJETS</a>
+                            <a href="galerie.html">GALERIE</a>
+                            <a href="about.html">AGENCE</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </header>
+        
+        <main>
+		
+                <div id="content" style="filter: blur(0px);">
+                    <h3>EQUIPE</h3>
+
+                  <div class="member" style="display: flex; flex-direction: column;">
+                    <div style="display: flex;">
+                      <div class="card"><img src="images/prog.svg" alt="prog" /><div class="cardint" id="c1"><h4>Kieran Mignon </h4><hr><br/><span id="card1"></span></div></div>
+                    </div>
+                    <div style="display: flex;">
+                     <div class="card"><img src="images/com.svg" alt="com" /><div class="cardint" id="c3"><h4>Nguyen Helene </h4><hr><br/><span id="card3"></span></div></div>
+                     <div class="card"><img src="images/prog.svg" alt="prog" /><div class="cardint" id="c2"><h4>Lechevallier Tanguy </h4><hr><br/><span id="card2"></span></div></div>
+                     <div class="card"><img src="images/design.svg" alt="design" /><div class="cardint" id="c6"><h4>Maokhampio Hugo </h4><hr><br/><span id="card6"></span></div></div>
+                    </div>
+                    <div style="display: flex;">
+                      <div class="card"><img src="images/com.svg" alt="com" /><div class="cardint" id="c5"><h4>Leong Villon </h4><hr><br/><span id="card5"></span></div></div>
+                      <div class="card"><img src="images/com.svg" alt="com" /><div class="cardint" id="c4"><h4>Crouzet Julian </h4><hr><br/><span id="card4"></span></div></div>
+                      <div class="card"><img src="images/design.svg" alt="design" /><div class="cardint" id="c7"><h4>Okyere-Darkoh Elisa </h4><hr><br/><span id="card7"></span></div></div>
+                    </div>
+                  </div>
+
+                    <div class="line" style="margin-top: 40px;" data-aos="zoom-in" data-aos-duration="1500"></div>
+
+                    <div class="flexv" style="display: flex; justify-content: center;">
+                    <div style="display: flex; flex-direction: column;"><h3>CHARTE GRAPHIQUE</h3> <a href="https://www.dropbox.com/s/x17o9f6571a791z/DEDALE%20GAMES%20-%20Charte%20Graphique.pdf?dl=1" ><img class="DL" src="images/CharteGraphique.PNG" alt="Charte Graphique"  data-aos="fade-up" data-aos-duration="2000"/></a></div>
+                    <div style="display: flex; flex-direction: column;"><h3>CAHIER DE RECOMMANDATION</h3> <a href="https://www.dropbox.com/s/ex75sjladobcnpv/DEDALE%20GAMES%20-%20Cahier%20de%20recommendation.pdf?dl=1" ><img class="DL" src="images/CahierRecommandation.PNG" alt="Cahier de Recommandation"  data-aos="fade-up" data-aos-duration="2000"/></a></div>
+                  </div>
+
+                  <div class="line" style="margin-top: 40px;" data-aos="zoom-in" data-aos-duration="1500"></div>
+                  <h3>AUTRES AGENCES</h3>
+                  <div class="ag" data-aos="zoom-in-up" data-aos-duration="1500">
+                    <a href="https://agencecreons.fr/" style="text-decoration: none;"><h4>Creons</h4><img style="margin-top: 10px;" src="images/Logo_Creons.png" alt="Creons" class="agence" /></a>
+                    <a href="https://sholy.fr/uniplay/index.php" style="text-decoration: none;"><h4>Uniplay</h4><img style="width:5.5vw !important" src="images/Uniplay.svg" alt="Uniplay" class="agence" /></a>
+                    <a href="https://seedyourlungs.github.io/Seed-your-lungs/" style="text-decoration: none;"><h4>Syl</h4><img style="width:9vw !important"src="images/syl.png" alt="Syl" class="agence" /></a>
+                    <a href="https://ateliersweetpea.fr/" style="text-decoration: none;"><h4>SweatPea</h4><img style="width:7vw !important" src="images/Sweet Pea.png" alt="SweatPea" class="agence" /></a>
+                    <a href="https://www.cri8.fr/" style="text-decoration: none;"><h4>Cri8</h4><img style="width:8vw !important" src="images/cri8.png" alt="cri8" class="agence" /></a>
+                  </div>
+                 </div>
+
+           
+        </main>
+        <footer class="footer">
+            <p class="cp">Copyright© 2021 Dedale Games</p>
+            <div class="SN">
+            <a href="https://www.facebook.com/dedalegames/" class="SNWF"></a>
+            <a href="https://www.instagram.com/dedale_games/" class="SNWI"></a>
+            <a href="https://www.linkedin.com/in/dedale-games/" class="SNWL"></a>
+            <a href="https://twitter.com/DedaleGames/" class="SNWTW"></a>
+            <a href="https://www.tiktok.com/@dedalegames/" class="SNWT"></a>
+        </div>
+        </footer>
+
+        <script type="text/javascript" src="js/vanilla-tilt.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+                     
+        var a = 0;
+         const card1 = document.querySelector('#c1');
+          card1.addEventListener("mouseenter", function() {
+        if(a==0){
+          var typed1 = new Typed('#card1', {
+          strings: ["Chef de projet <br/> Programmation <br/><br/> Programmation du site web, des différentes interfaces d’utilisateur et du jeu. "],
+          typeSpeed: 15,
+          });
+          a+=1;
+        }
+          });
+
+        var b = 0;
+         const card2 = document.querySelector('#c2');
+          card2.addEventListener("mouseenter", function() {
+        if(b==0){
+          var typed2 = new Typed('#card2', {
+          strings: ["Chef programmation <br/><br/> Programmation du site web, des différentes interfaces d’utilisateur et du jeu. "],
+          typeSpeed: 15,
+          });
+          b+=1;
+        }
+          });
+
+        var c = 0;
+         const card3 = document.querySelector('#c3');
+          card3.addEventListener("mouseenter", function() {
+        if(c==0){
+          var typed3 = new Typed('#card3', {
+          strings: ["Chef communication <br/><br/> Rédaction, promotion et communication à travers différents canaux <br/> (réseaux sociaux, affiches). "],
+          typeSpeed: 15,
+          });
+          c+=1;
+        }
+          });
+
+        var d = 0;
+        const card4 = document.querySelector('#c4');
+        card4.addEventListener("mouseenter", function() {
+        if(d==0){
+          var typed3 = new Typed('#card4', {
+          strings: ["Communication <br/><br/> Rédaction, promotion et communication à travers différents canaux <br/> (réseaux sociaux, affiches). "],
+          typeSpeed: 15,
+          });
+          d+=1;
+        }
+          });
+
+        var e = 0;
+        const card5 = document.querySelector('#c5');
+        card5.addEventListener("mouseenter", function() {
+        if(e==0){
+          var typed3 = new Typed('#card5', {
+          strings: ["Communication <br/><br/> Rédaction, promotion et communication à travers différents canaux <br/> (réseaux sociaux, affiches). "],
+          typeSpeed: 15,
+          });
+          e+=1;
+        }
+          });
+
+        var f = 0;
+        const card6 = document.querySelector('#c6');
+        card6.addEventListener("mouseenter", function() {
+        if(f==0){
+          var typed3 = new Typed('#card6', {
+          strings: ["Chef design <br/><br/> Identité visuelle, site web, design de la campagne promotionnelle et des graphismes du jeu. "],
+          typeSpeed: 15,
+          });
+          f+=1;
+        }
+          }); 
+
+        var g = 0;
+        const card7 = document.querySelector('#c7');
+        card7.addEventListener("mouseenter", function() {
+        if(g==0){
+          var typed3 = new Typed('#card7', {
+          strings: ["Design <br/><br/> Identité visuelle, site web, design de la campagne promotionnelle et des graphismes du jeu. "],
+          typeSpeed: 15,
+          });
+          g+=1;
+        }
+          }); 
+          
+          VanillaTilt.init(document.querySelectorAll(".card"), {
+                max: 4.5,
+                speed: 2500,
+                scale: 1.09,
+            });
+
+            AOS.init();
+        </script>
+	</body>
+</html>
